@@ -1,21 +1,12 @@
 /* manejo de las características de la etiqueta body*/
 
 body {
-  /*background: #FEFEFD;*/
   background: #FEFEFD;
   padding: 30px;
 
 }
 
-header {
-  background: #034275;
-  color: #FFF;
-}
 /* manejo de las características de la etiqueta table*/
-
-section {
-  width: 100%;
-}
 
 th, td {
   padding: 15px;
@@ -32,7 +23,7 @@ input[type=text], input[type=number] {
   box-sizing: border-box;
 }
 
-input[type=text|number]:focus {
+/*input[type=text|number]:focus {
   border: 3px solid blue;
 }
 
@@ -53,32 +44,7 @@ label {
   width: 40%;
 }
 
-.nombre_usuario {
-  color: red;
-}
-
 /*Menu */
 /*
  Tomado de http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html
  */
-.top_menu ul
-{
-  list-style:none;
-  float:left;
-  padding: 5px;
-  width:95%;
-}
-
-.top_menu ul li
-{
-  float:left;
-  margin-right:10px;
-  margin-bottom:5px;
-  text: #FFF;
-
-}
-
-footer{
-  background: #5E5E5E;
-  color: #FFF;
-}
