@@ -31,17 +31,17 @@
       <ul>
         {% for t in e.numeros_telefonicos.all %}
           <li>
-            <span>{{t.telefono}} - {{t.tipo}} - [<a href="{% url 'editar_numero_telefonico' t.id %}">editar</a>] </span>
+            <span>{{t.telefono}} - {{t.tipo}} - [<a href="{% url 'editar_numero_telefonico' t.id %}">Editar</a>] </span>
           </li>
         {% endfor %}
       </ul>
-        [<a href="{% url 'crear_numero_telefonico_estudiante' e.id%}">+Teléfono</a>]
+        [<a href="{% url 'crear_numero_telefonico_estudiante' e.id%}">Agregar Telefono</a>]
     </td>
-    <td> <a href="{% url 'obtener_estudiante' e.id %}">ver</a> <br>
-      <a href="{% url 'editar_estudiante' e.id %}">editar</a> <br>
+    <td> <a href="{% url 'obtener_estudiante' e.id %}">Ver</a> <br>
+      <a href="{% url 'editar_estudiante' e.id %}">Editar</a> <br>
       <a href="{% url 'eliminar_estudiante' e.id %}"
       onclick="return confirm('¿Está seguro de la eliminación?')" >
-      eliminar</a>
+      Eliminar</a>
     </td>
 
   </tr>

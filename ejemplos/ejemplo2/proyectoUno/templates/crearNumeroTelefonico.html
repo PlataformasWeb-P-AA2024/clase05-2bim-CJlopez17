@@ -2,14 +2,11 @@
 
 {% block content %}
 
-<h2>Crear Número Telefónico</h3>
+<h2 class="style">Crear Número Telefónico</h3>
 
-<form action="" method="post">
-
+<form class="style" action="" method="post">
   {% csrf_token %}
-
   {{formulario.as_p}}
-
   <p><input type='submit' value='Agregar'/></p>
 </form>
 {% endblock %}

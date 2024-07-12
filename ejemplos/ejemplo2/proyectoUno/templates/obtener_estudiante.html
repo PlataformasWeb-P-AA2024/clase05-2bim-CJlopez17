@@ -2,12 +2,13 @@
 
 {% block content %}
 
-<h3>Datos de estudiante</h3>
+<div class="datos-estudiante">
+    <h3>Datos de estudiante</h3>
 
-<p><b>Nombre:</b>{{estudiante.nombre}}</p>
-<p><b>Apellido:</b>{{estudiante.apellido}}</p>
-<p><b>Cédula:</b>{{estudiante.cedula}}</p>
-<p><b>Correo:</b>{{estudiante.correo}}</p>
+    <p><b>Nombre:</b> {{estudiante.nombre}}</p>
+    <p><b>Apellido:</b> {{estudiante.apellido}}</p>
+    <p><b>Cédula:</b> {{estudiante.cedula}}</p>
+    <p><b>Correo:</b> {{estudiante.correo}}</p>
+</div>
 
-<br/>
 {% endblock %}
